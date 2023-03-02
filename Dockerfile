@@ -14,4 +14,4 @@ COPY . /usr/ylli-nextjs-app
 
 EXPOSE 3000
 
-ENTRYPOINT  [ "npm", "run", "start" ]
+CMD  [ "npm", "run", "start" ]
